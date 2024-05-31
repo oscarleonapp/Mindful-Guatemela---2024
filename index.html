@@ -36,201 +36,282 @@
    </head>
 
    <body>
-      <!-- Navbar -->
-      <nav class="navbar navbar-expand-lg navbar-light w-100">
-         <div class="container px-3">
-             <a class="navbar-brand" href="./index.html"><img src="#!" alt />Mindful Guatemala</a>
-             <button class="navbar-toggler offcanvas-nav-btn" type="button">
-                 <i class="bi bi-list"></i>
-             </button>
-     
-             <div class="offcanvas offcanvas-start offcanvas-nav" style="width: 20rem">
+
+     <header>
+        <nav class="navbar navbar-expand-lg navbar-light w-100">
+           <div class="container px-3">
+              <a class="navbar-brand" href="./index.html"><img src="./assets/images/logo-mirna.png" width="28" alt=""> Mindful Guatemala</a>
+              <button class="navbar-toggler offcanvas-nav-btn" type="button">
+                 <i class="bi bi-list"></i> 
+              </button>
+              <div class="offcanvas offcanvas-start offcanvas-nav" style="width: 20rem">
                  <div class="offcanvas-header">
-                     <a href="./index.html" class="text-inverse"><img src="./assets/images/logo/logo.svg" alt /></a>
-                     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    <a href="./index.html" class="text-inverse"><img src="./assets/images/logo/logo.svg" alt=""></a>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                  </div>
                  <div class="offcanvas-body pt-0 align-items-center">
-                     <ul class="navbar-nav mx-auto align-items-lg-center">
-                     <li class="nav-item">
-                         <a class="nav-link" aria-current="page" href="#">Home</a>
-                     </li>
-                     <li class="nav-item">
-                         <a class="nav-link" href="#">Link</a>
-                     </li>
-                     <li class="nav-item dropdown dropdown-fullwidth">
-                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Blocks</a>
-                         <div class="dropdown-menu p-4">
-                             <div class="row row-cols-xl-6 row-cols-lg-5 row-cols-1 gx-lg-4">
-                                 <div class="col">
-                                     <a class="dropdown-item d-block px-0 mb-lg-3" href="#">
-                                         <div class="rounded d-none d-lg-block mb-lg-2">
-                                             <img class="w-100 rounded-2" src="./assets/images/block/hero-snippets-bootstrap.svg" alt="" />
+                    <ul class="navbar-nav mx-auto align-items-lg-center">
+                       <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Landings</a>
+                          <ul class="dropdown-menu">
+                             <li><a class="dropdown-item" href="#">Landing Overview</a></li>
+                             <li><a class="dropdown-item" href="#">Saas v.1</a></li>
+                             <li><a class="dropdown-item" href="#">Sass v.2</a></li>
+                             <li>
+                                <a class="dropdown-item" href="#">
+                                   IT Company
+                                   <span class="badge text-bg-success ms-2">New</span>
+                                </a>
+                             </li>
+                             <li><a class="dropdown-item" href="#">Accounting</a></li>
+                             <li><a class="dropdown-item" href="#">Finance</a></li>
+                             <li><a class="dropdown-item" href="#">Jamstack Agency</a></li>
+                             <li><a class="dropdown-item" href="#">Conference</a></li>
+                             <li><a class="dropdown-item" href="#">Personal</a></li>
+                          </ul>
+                       </li>
+                       <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Pages</a>
+                          <div class="dropdown-menu dropdown-menu-xxl">
+                             <div class="row row-cols-lg-4 row-cols-1 g-0">
+                                <div class="col">
+                                   <div>
+                                      <div>
+                                         <div class="dropdown-header">Blog</div>
+                                         <a class="dropdown-item" href="#">List View</a>
+                                         <a class="dropdown-item" href="#">Grid View</a>
+                                         <a class="dropdown-item" href="#">Grid View v.2</a>
+                                         <a class="dropdown-item" href="#">Sidebar</a>
+                                         <a class="dropdown-item" href="#">Category</a>
+                                         <a class="dropdown-item" href="#">Single Post</a>
+                                      </div>
+                                      <div class="mt-3">
+                                         <div class="dropdown-header">About</div>
+                                         <a class="dropdown-item" href="#">About v.1</a>
+                                         <a class="dropdown-item" href="#">About v.2</a>
+                                      </div>
+                                   </div>
+                                </div>
+                                <div class="col">
+                                   <div class="mt-3 mt-lg-0">
+                                      <div>
+                                         <div class="dropdown-header">Service</div>
+                                         <a class="dropdown-item" href="#">Service v.1</a>
+                                         <a class="dropdown-item" href="#">Service v.2</a>
+                                         <a class="dropdown-item" href="#">Service v.3</a>
+                                      </div>
+                                      <div class="mt-3">
+                                         <div class="dropdown-header">Events</div>
+
+                                         <a class="dropdown-item" href="#">List</a>
+                                         <a class="dropdown-item" href="#">Single</a>
+                                      </div>
+                                      <div class="mt-3">
+                                         <div class="dropdown-header">Contact</div>
+
+                                         <a class="dropdown-item" href="#">Contact Us</a>
+                                         <a class="dropdown-item" href="#">Contact Sales</a>
+                                      </div>
+                                   </div>
+                                </div>
+                                <div class="col">
+                                   <div class="mt-3 mt-lg-0">
+                                      <div>
+                                         <div class="dropdown-header">Portfolio</div>
+
+                                         <a class="dropdown-item" href="#">Grid View</a>
+
+                                         <a class="dropdown-item" href="#">Single View</a>
+                                      </div>
+                                      <div class="mt-3">
+                                         <div class="dropdown-header">Pricing</div>
+                                         <a class="dropdown-item" href="#">Pricing v.1</a>
+                                         <a class="dropdown-item" href="#">Pricing v.2</a>
+                                      </div>
+                                      <div class="mt-3">
+                                         <div class="dropdown-header">Career</div>
+                                         <a class="dropdown-item" href="#">Career</a>
+                                      </div>
+                                   </div>
+                                </div>
+                                <div class="col">
+                                   <div class="mt-3 mt-lg-0">
+                                      <div>
+                                         <div class="dropdown-header">Integration</div>
+                                         <a class="dropdown-item" href="#">Grid View</a>
+                                         <a class="dropdown-item" href="#">Single</a>
+                                      </div>
+                                      <div class="mt-3">
+                                         <div>
+                                            <div class="dropdown-header">Case Study</div>
+                                            <a class="dropdown-item" href="#">Grid View</a>
                                          </div>
-                                         <span>Hero</span>
-                                     </a>
-                                 </div>
-                                 <div class="col">
-                                     <a class="dropdown-item d-block px-0 mb-lg-3" href="#">
-                                         <div class="rounded d-none d-lg-block mb-lg-2">
-                                             <img class="w-100 rounded-2" src="./assets/images/block/header-snippets-bootstrap.svg" alt="" />
-                                         </div>
-                                         <span>Navbar</span>
-                                     </a>
-                                 </div>
-                                 <div class="col">
-                                     <a class="dropdown-item d-block px-0 mb-lg-3" href="#">
-                                         <div class="rounded d-none d-lg-block mb-lg-2">
-                                             <img class="w-100 rounded-2" src="./assets/images/block/about-snippets-bootstrap.svg" alt="" />
-                                         </div>
-                                         <span>About</span>
-                                     </a>
-                                 </div>
-                                 <div class="col">
-                                     <a class="dropdown-item d-block px-0 mb-lg-3" href="#"">
-                                         <div class="rounded d-none d-lg-block mb-lg-2">
-                                             <img class="w-100 rounded-2" src="./assets/images/block/blog-snippets-bootstrap.svg" alt="" />
-                                         </div>
-                                         <span>Blog</span>
-                                     </a>
-                                 </div>
-                                 <div class="col">
-                                     <a class="dropdown-item d-block px-0 mb-lg-3" href="#">
-                                         <div class="rounded d-none d-lg-block mb-lg-2">
-                                             <img class="w-100 rounded-2" src="./assets/images/block/carousel-snippets-bootstrap.svg" alt="" />
-                                         </div>
-                                         <span>Carousel</span>
-                                     </a>
-                                 </div>
-                                 <div class="col">
-                                     <a class="dropdown-item d-block px-0 mb-lg-3" href="#">
-                                         <div class="rounded d-none d-lg-block mb-lg-2">
-                                             <img class="w-100 rounded-2" src="./assets/images/block/call-to-action-snippets-bootstrap.svg" alt="" />
-                                         </div>
-                                         <span>Call to Action</span>
-                                     </a>
-                                 </div>
-                                 <div class="col">
-                                     <a class="dropdown-item d-block px-0 mb-lg-3" href="#">
-                                         <div class="rounded d-none d-lg-block mb-lg-2">
-                                             <img class="w-100 rounded-2" src="./assets/images/block/clients-logo-snippets-bootstrap.svg" alt="" />
-                                         </div>
-                                         <span>Client</span>
-                                     </a>
-                                 </div>
-                                 <div class="col">
-                                     <a class="dropdown-item d-block px-0 mb-lg-3" href="#">
-                                         <div class="rounded d-none d-lg-block mb-lg-2">
-                                             <img class="w-100 rounded-2" src="./assets/images/block/contact-section-example.svg" alt="" />
-                                         </div>
-                                         <span>Contact</span>
-                                     </a>
-                                 </div>
-                                 <div class="col">
-                                     <a class="dropdown-item d-block px-0 mb-lg-3" href="#">
-                                         <div class="rounded d-none d-lg-block mb-lg-2"><img class="w-100 rounded-2" src="./assets/images/block/form-snippets-bootstrap.svg" alt="" /></div>
-                                         <span>Form</span>
-                                     </a>
-                                 </div>
-                                 <div class="col">
-                                     <a class="dropdown-item d-block px-0 mb-lg-3" href="#">
-                                         <div class="rounded d-none d-lg-block mb-lg-2"><img class="w-100 rounded-2" src="./assets/images/block/faq-section-example.svg" alt="" /></div>
-                                         <span>FAQ</span>
-                                     </a>
-                                 </div>
-                                 <div class="col">
-                                     <a class="dropdown-item d-block px-0 mb-lg-3" href="#">
-                                         <div class="rounded d-none d-lg-block mb-lg-2"><img class="w-100 rounded-2" src="./assets/images/block/team-snippets-bootstrap.svg" alt="" /></div>
-                                         <span>Team</span>
-                                     </a>
-                                 </div>
-                                 <div class="col">
-                                     <a class="dropdown-item d-block px-0 mb-lg-3" href="#">
-                                         <div class="rounded d-none d-lg-block mb-lg-2">
-                                             <img class="w-100 rounded-2" src="./assets/images/block/footer-snippets-bootstrap.svg" alt="" />
-                                         </div>
-                                         <span>Footer</span>
-                                     </a>
-                                 </div>
-                                 <div class="col">
-                                     <a class="dropdown-item d-block px-0 mb-lg-3" href="#">
-                                         <div class="rounded d-none d-lg-block mb-lg-2">
-                                             <img class="w-100 rounded-2" src="./assets/images/block/feature-snippets-bootstrap.svg" alt="" />
-                                         </div>
-                                         <span>Features</span>
-                                     </a>
-                                 </div>
-                                 <div class="col">
-                                     <a class="dropdown-item d-block px-0 mb-lg-3" href="#">
-                                         <div class="rounded d-none d-lg-block mb-lg-2">
-                                             <img class="w-100 rounded-2" src="./assets/images/block/integration-snippets-bootstrap.svg" alt="" />
-                                         </div>
-                                         <span>Integration</span>
-                                     </a>
-                                 </div>
-                                 <div class="col">
-                                     <a class="dropdown-item d-block px-0 mb-lg-3" href="#">
-                                         <div class="rounded d-none d-lg-block mb-lg-2">
-                                             <img class="w-100 rounded-2" src="./assets/images/block/location-snippets-bootstrap.svg" alt="" />
-                                         </div>
-                                         <span>Location</span>
-                                     </a>
-                                 </div>
-                                 <div class="col">
-                                     <a class="dropdown-item d-block px-0 mb-lg-3" href="#">
-                                         <div class="rounded d-none d-lg-block mb-lg-2">
-                                             <img class="w-100 rounded-2" src="./assets/images/block/portfolio-snippets-bootstrap.svg" alt="" />
-                                         </div>
-                                         <span>Portfolio</span>
-                                     </a>
-                                 </div>
-                                 <div class="col">
-                                     <a class="dropdown-item d-block px-0 mb-lg-3" href="#">
-                                         <div class="rounded d-none d-lg-block mb-lg-2">
-                                             <img class="w-100 rounded-2" src="./assets/images/block/process-snippets-bootstrap.svg" alt="" />
-                                         </div>
-                                         <span>Process</span>
-                                     </a>
-                                 </div>
-                                 <div class="col">
-                                     <a class="dropdown-item d-block px-0 mb-lg-3" href="#">
-                                         <div class="rounded d-none d-lg-block mb-lg-2 bg-gray-200">
-                                             <img class="w-100 rounded-2" src="./assets/images/block/pricing-snippets-bootstrap.svg" alt="" />
-                                         </div>
-                                         <span>Pricing</span>
-                                     </a>
-                                 </div>
-     
-                                 <div class="col">
-                                     <a class="dropdown-item d-block px-0 mb-lg-3" href="#">
-                                         <div class="rounded d-none d-lg-block mb-lg-2">
-                                             <img class="w-100 rounded-2" src="./assets/images/block/stats-snippets-bootstrap.svg" alt="" />
-                                         </div>
-                                         <span>Stats</span>
-                                     </a>
-                                 </div>
-                                 <div class="col">
-                                     <a class="dropdown-item d-block px-0 mb-lg-3" href="#">
-                                         <div class="rounded d-none d-lg-block mb-lg-2">
-                                             <img class="w-100 rounded-2" src="./assets/images/block/testimonial-snippets-bootstrap.svg" alt="" />
-                                         </div>
-                                         <span>Testimonials</span>
-                                     </a>
-                                 </div>
+                                      </div>
+                                   </div>
+                                </div>
                              </div>
-                         </div>
-                     </li>
-                     <li class="nav-item">
-                         <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-                     </li>
-                 </ul>
-     
-                 <form class="d-flex mt-3 mt-lg-0" role="search">
-                     <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" /> -->
-                     <button class="btn btn-outline-success" type="submit">Call to action</button>
-                 </form>
-             </div>
-         </div>
-     </nav>
+                          </div>
+                       </li>
+                       <li class="nav-item dropdown dropdown-fullwidth">
+                          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Blocks</a>
+                          <div class="dropdown-menu p-4">
+                             <div class="row row-cols-xl-6 row-cols-lg-5 row-cols-1 gx-lg-4">
+                                <div class="col">
+                                   <a class="dropdown-item d-block px-0 mb-lg-3" href="#">
+                                      <div class="rounded d-none d-lg-block mb-lg-2">
+                                         <img class="w-100 rounded-2" src="./assets/images/block/hero-snippets-bootstrap.svg" alt="">
+                                      </div>
+                                      <span>Hero</span>
+                                   </a>
+                                </div>
+                                <div class="col">
+                                   <a class="dropdown-item d-block px-0 mb-lg-3" href="#">
+                                      <div class="rounded d-none d-lg-block mb-lg-2">
+                                         <img class="w-100 rounded-2" src="./assets/images/block/header-snippets-bootstrap.svg" alt="">
+                                      </div>
+                                      <span>Navbar</span>
+                                   </a>
+                                </div>
+                                <div class="col">
+                                   <a class="dropdown-item d-block px-0 mb-lg-3" href="#">
+                                      <div class="rounded d-none d-lg-block mb-lg-2">
+                                         <img class="w-100 rounded-2" src="./assets/images/block/about-snippets-bootstrap.svg" alt="">
+                                      </div>
+                                      <span>About</span>
+                                   </a>
+                                </div>
+                                <div class="col">
+                                   <a class="dropdown-item d-block px-0 mb-lg-3" href="#">
+                                      <div class="rounded d-none d-lg-block mb-lg-2">
+                                         <img class="w-100 rounded-2" src="./assets/images/block/blog-snippets-bootstrap.svg" alt="">
+                                      </div>
+                                      <span>Blog</span>
+                                   </a>
+                                </div>
+                                <div class="col">
+                                   <a class="dropdown-item d-block px-0 mb-lg-3" href="#">
+                                      <div class="rounded d-none d-lg-block mb-lg-2">
+                                         <img class="w-100 rounded-2" src="./assets/images/block/carousel-snippets-bootstrap.svg" alt="">
+                                      </div>
+                                      <span>Carousel</span>
+                                   </a>
+                                </div>
+                                <div class="col">
+                                   <a class="dropdown-item d-block px-0 mb-lg-3" href="#">
+                                      <div class="rounded d-none d-lg-block mb-lg-2">
+                                         <img class="w-100 rounded-2" src="./assets/images/block/case-study-bootstrap.svg" alt="">
+                                      </div>
+                                      <span>Case Study</span>
+                                   </a>
+                                </div>
+
+                             </div>
+                          </div>
+                       </li>
+                       <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Accounts</a>
+                          <ul class="dropdown-menu">
+                             <li><a class="dropdown-item" href="#">Profile</a></li>
+                             <li><a class="dropdown-item" href="#">Security</a></li>
+                             <li><a class="dropdown-item" href="#">Billing</a></li>
+                             <li><a class="dropdown-item" href="#">Team</a></li>
+                             <li><a class="dropdown-item" href="#">Notifications</a></li>
+                             <li><a class="dropdown-item" href="#">Integration</a></li>
+                             <li><a class="dropdown-item" href="#">Session</a></li>
+                             <li><a class="dropdown-item" href="#">Social</a></li>
+                             <li><a class="dropdown-item" href="#">Appearance</a></li>
+                             <li class="dropdown-submenu dropend">
+                                <a class="dropdown-item dropdown-toggle" href="#">Authentication</a>
+                                <ul class="dropdown-menu">
+                                   <li class="dropdown-header">Simple</li>
+
+                                   <li>
+                                      <a class="dropdown-item" href="#">Sign In</a>
+                                   </li>
+                                   <li>
+                                      <a class="dropdown-item" href="#">Sign Up</a>
+                                   </li>
+                                   <li>
+                                      <a class="dropdown-item" href="#">Forget Password</a>
+                                   </li>
+                                   <li>
+                                      <a class="dropdown-item" href="#">Reset Password</a>
+                                   </li>
+                                   <li>
+                                      <a class="dropdown-item" href="#">OTP Varification</a>
+                                   </li>
+                                   <li><hr class="dropdown-divider"></li>
+                                   <li class="dropdown-header">Side Cover</li>
+
+                                   <li>
+                                      <a class="dropdown-item" href="#">Sign In</a>
+                                   </li>
+
+                                   <li>
+                                      <a class="dropdown-item" href="#">Sign Up</a>
+                                   </li>
+
+                                   <li>
+                                      <a class="dropdown-item" href="#">Forget Password</a>
+                                   </li>
+                                   <li>
+                                      <a class="dropdown-item" href="#">Reset Password</a>
+                                   </li>
+                                   <li>
+                                      <a class="dropdown-item" href="#">OTP Varification</a>
+                                   </li>
+                                </ul>
+                             </li>
+                             <li class="dropdown-submenu dropend">
+                                <a class="dropdown-item dropdown-toggle" href="#">Utility</a>
+                                <ul class="dropdown-menu">
+                                   <li>
+                                      <a class="dropdown-item" href="#">404 Error</a>
+                                   </li>
+                                   <li>
+                                      <a class="dropdown-item" href="#">Changelog</a>
+                                   </li>
+                                </ul>
+                             </li>
+                          </ul>
+                       </li>
+                       <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Documentos</a>
+                          <div class="dropdown-menu dropdown-menu-md" aria-labelledby="navbarDropdown">
+                             <a class="dropdown-item mb-3 text-body" href="#">
+                                <div class="d-flex align-items-center">
+                                   <i class="bi bi-file-text fs-4 text-primary"></i>
+                                   <div class="ms-3 lh-1">
+                                      <h5 class="mb-1">Libros</h5>
+                                      <p class="mb-0 fs-6">Browse the all documentation</p>
+                                   </div>
+                                </div>
+                             </a>
+
+                             <a class="dropdown-item text-body" href="#">
+                                <div class="d-flex align-items-center">
+                                   <i class="bi bi-clipboard fs-4 text-primary"></i>
+                                   <div class="ms-3 lh-1">
+                                      <h5 class="mb-1">
+                                         Changelog
+                                         <span class="text-primary ms-1" id="changelog"></span>
+                                      </h5>
+                                      <p class="mb-0 fs-6">See what's new</p>
+                                   </div>
+                                </div>
+                             </a>
+                          </div>
+                       </li>
+                    </ul>
+                    <div class="mt-3 mt-lg-0 d-flex align-items-center">
+                       <a href="#" class="btn btn-light mx-2">Login</a>
+                       <a href="#" class="btn btn-primary">Create account</a>
+                    </div>
+                 </div>
+              </div>
+           </div>
+        </nav>
+     </header>
      
      
 
